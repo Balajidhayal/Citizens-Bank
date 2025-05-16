@@ -1,0 +1,148 @@
+header {
+  padding: 20px 0px;
+}
+
+header img {
+  width: 30%;
+}
+
+.career-btn a {
+  background: #E97300;
+  font-size: 24px;
+  line-height: 32px;
+  padding: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.learn-more-btn a {
+  display: flex;
+  color: #759B24;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.advantage-main {
+  margin-bottom: 80px;
+}
+
+.border-right {
+  border-right: 0.5px solid #666666;
+  padding-right: 30px;
+}
+
+.homeloans-heading {
+  background: #00945F;
+  padding: 20px;
+}
+
+.homeloans-content {
+  background: #EBF7F5;
+  padding: 20px 60px;
+}
+
+.testimonial-img {
+  width: 200px;
+}
+
+.testimonial-para {
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+.testimonial-para::before {
+  content: url('../images/quotes.png');
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  opacity: 0.1;
+}
+
+.footer-section {
+  border-top: 1px solid #00945F;
+}
+
+.social-icons {
+  margin-bottom: 30px;
+  list-style: none;
+  padding: 0px;
+}
+
+.social-icons li {
+  margin-right: 15px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0px;
+}
+
+.footer-section p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.footer-section p a {
+  color: #888888;
+}
+
+.footermenu {
+  list-style: none;
+  padding: 0px;
+}
+
+.footermenu li a {
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  line-height: 24px;
+}
+
+.footermenu span {
+  margin: 0px 15px;
+  color: #000;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 1000px) {
+  .testimonial-img {
+    width: 151px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .border-right {
+    border-right: none;
+    padding-right: 0px;
+  }
+
+  .homeloans-content {
+    padding: 20px;
+  }
+
+  .advantage-main {
+    margin-bottom: 40px !important;
+  }
+
+  .testimonial-main {
+    margin-bottom: 40px;
+    padding: 0px 30px;
+  }
+
+  header .custom-container {
+    text-align: center;
+  }
+
+  header img {
+    width: 50%;
+  }
+
+  .mbl-mb-0 {
+    margin-bottom: 0px !important;
+  }
+}
